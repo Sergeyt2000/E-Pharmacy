@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #59B17A;
+    width: 100vw;
+    /* width: 1440px; */
+    /* padding-top: 28px;
+    padding-bottom: 28px; */
+    padding: 28px 128px;
+    padding-bottom: 0px;
+    /* margin: 0 auto; */
+}

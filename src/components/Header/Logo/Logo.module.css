@@ -1,0 +1,17 @@
+.logo {
+    background-color: #59B17A;
+    width: 172px;
+}
+.logosvg {
+    stroke: #FFFFFF;
+}
+.logoLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.logo_text {
+    color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+.authNav {
+    display: flex;
+    gap: 14px;
+    background-color: #59B17A;
+    color: #F1F1F1;
+}
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 119px;
+    border: 1px solid #F1F1F180;
+    border-radius: 60px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-decoration: underline;
+}

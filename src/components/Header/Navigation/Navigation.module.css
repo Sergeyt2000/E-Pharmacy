@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+}
+.item {
+    display: flex;
+    /* box-sizing: border-box; */
+  border: 1px solid #d9d9d9;
+  border-radius: 60px;
+  padding: 8px;
+  background-color: #ffffff;
+  align-items: center;
+}
+.link {
+     /* box-sizing: border-box; */
+    padding: 8px 20px;
+    border-radius: 24px;
+    /* background-color: #59B17A; */
+}

@@ -1,0 +1,28 @@
+.hero {
+    background-color: #59B17A;
+    padding: 146px 346px 146px 345px; 
+}
+.mainBlock {
+    box-sizing: border-box;
+    width: 749px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 86px 156px 54px;
+    color: #FFFFFF;
+    background-image: url(/public/Images/pills.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 749px 508px;
+}
+.title {
+    font-size: 74px;
+    width: 609px;
+    text-align: left;
+}
+.subtitle {
+    font-size: 16px;
+    width: 207px;
+    margin-top: 24px;
+    margin-left: 383px;
+}

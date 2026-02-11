@@ -1,0 +1,51 @@
+.sale {
+    box-sizing: border-box;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  width: 321px;
+  background-color: #fdfdfd;
+  border: 1.15px solid #f1f1f1;
+  padding: 14px 64px 14px 18px;
+  border-radius: 27px;
+}
+.header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #59b17a;
+  line-height: 1;
+  border-radius: 50%;
+  background-color: rgba(231, 241, 237, 0.4);
+  width: 74px;
+  height: 74px;
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #252539;
+}
+.persent {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.4;
+  color: #252539;
+}
+.link {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #93939a;
+}

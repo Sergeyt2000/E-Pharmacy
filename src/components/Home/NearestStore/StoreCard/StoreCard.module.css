@@ -1,0 +1,61 @@
+.storeCard {
+    box-sizing: border-box;
+  width: 392px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  border: 1.15px solid #f1f1f1;
+  border-radius: 27px;
+  background-color: #e7f1ed;
+  padding: 40px;
+  /* align-items: flex-start; */
+}
+.storeHeader {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+.storeName {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.storeReiting {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ratingNumber {
+  font-weight: 500;
+  line-height: 1.29;
+}
+.btn {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: rgba(89, 177, 122, 0.1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #59b17a;
+}
+.storeInfo {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
