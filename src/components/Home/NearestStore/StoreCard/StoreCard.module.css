@@ -1,5 +1,5 @@
 .storeCard {
-    box-sizing: border-box;
+  box-sizing: border-box;
   width: 392px;
   height: 232px;
   display: flex;
@@ -9,10 +9,12 @@
   background-color: #e7f1ed;
   padding: 40px;
   /* align-items: flex-start; */
+  /* position: relative;
+  overflow: hidden; */
 }
 .storeHeader {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 34px;
 }
@@ -50,12 +52,47 @@
   color: #59b17a;
 }
 .storeInfo {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 14px;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 .address {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
+
+/* .storeCard::after {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 180px;
+  height: 180px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.04) 0 25%,
+      transparent 25% 50%,
+      rgba(0, 0, 0, 0.04) 50% 75%,
+      transparent 75% 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.04) 0 25%,
+      transparent 25% 50%,
+      rgba(0, 0, 0, 0.04) 50% 75%,
+      transparent 75% 100%
+    );
+  background-size:
+    40px 40px,
+    40px 40px;
+  background-position:
+    0 0,
+    20px 20px;
+  transform: rotate(25deg);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+} */
