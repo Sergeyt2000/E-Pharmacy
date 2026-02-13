@@ -1,0 +1,20 @@
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+.featuresList {
+  display: flex;
+  gap: 48px;
+}
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.featureText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}

@@ -3,7 +3,7 @@ import Hero from "../../components/Home/Hero/Hero";
 import PromoBanners from "../../components/Home/PromoBanners/PromoBanners";
 import NearestStore from '../../components/Home/NearestStore/NearestStore';
 import AddPharmacyPromo from "../../components/Home/AddPharmacyPromo/AddPharmacyPromo";
-// import Reviews from '../../components/Home/Reviews/Reviews';
+import Reviews from '../../components/Home/Reviews/Reviews';
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
         <PromoBanners />
         <NearestStore />
         <AddPharmacyPromo />
-        {/* <Reviews /> */}
+        <Reviews />
       </div>
     </div>
   );

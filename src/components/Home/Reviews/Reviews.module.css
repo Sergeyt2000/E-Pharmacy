@@ -1,0 +1,26 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+    text-align: center;
+    width: 1202px;
+}
+
+.reviewsTitle {
+    font-weight: 600;
+font-size: 40px;
+line-height: 1.2;
+margin-bottom: 14px;
+}
+.reviewsSubtitle {
+    font-size: 16px;
+line-height: 1.25;
+color: #93939a;
+}
+.reviewsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-top: 64px;
+}
