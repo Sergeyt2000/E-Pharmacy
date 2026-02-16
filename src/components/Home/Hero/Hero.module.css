@@ -1,6 +1,6 @@
 .hero {
     background-color: #59B17A;
-    padding: 146px 346px 146px 345px; 
+    padding: 146px 346px 146px 345px;    
 }
 .mainBlock {
     box-sizing: border-box;
@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 749px 508px;
+    margin: 0 auto;
 }
 .title {
     font-size: 74px;

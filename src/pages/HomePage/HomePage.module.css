@@ -1,6 +1,8 @@
-.container {
+.container {  
 }
 .content {
+  margin: 0 auto;
+  max-width: 1440px;
   background-color: #f7f8fa;
   padding: 64px 96px 120px 96px;
 }

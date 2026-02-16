@@ -5,10 +5,10 @@ import AuthNav from './AuthNav/AuthNav.jsx';
 
 export default function Header() {
     return (
-      <header className={css.header}>
+      <div className={css.header}>
         <Logo />
         <Navigation />
         <AuthNav />
-      </header>
+      </div>
     );
 }
